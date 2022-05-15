@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Iniciar Sesión | Lemepetie</title>
+</head>
+<body>
+    <h1>Lemepetie</h1>
+    <div class="formulario">
+        <h2>Iniciar sesión</h2>
+        <div class="input-label">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" class="input usuario" required maxlength="12s" placeholder="Usuario">
+        </div>
+        <div class="password">
+            <div class="input-label">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" class="input contraseña dif" required maxlength="16" placeholder="Contraseña">
+                <button class="verContraseña" >
+                    <i class="uno fa-solid fa-eye" title="Ver Contraseña"></i>
+                    <i class="dos fa-solid fa-eye-slash oculto" title="Ocultar Contraseña"></i>
+                </button>
+            </div>
+        </div>
+        <button class="enviar">Entrar</button>
+        <a class="registrar" href="">¿No tiene cuenta? Registrese Ahora.</a>
+        <label></label>
+    </div>
+
+    <script src="validar.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    color: white;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    align-items: center;
+    background: linear-gradient(135deg, #7c118055 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(225deg, #7c1180 25%, transparent 25%) -11px 0/ 22px 22px, linear-gradient(315deg, #7c118055 25%, transparent 25%) 0px 0/ 22px 22px, linear-gradient(45deg, #7c1180 25%, #4b0942 25%) 0px 0/ 22px 22px;
+}
+
+h2{
+    margin: 10px 0 20px 0;
+    text-align: center
+}
+
+.formulario{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    padding: 15px;
+    background-color: rgb(104, 18, 82);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0 0 40px rgb(78, 58, 58);
+}
+
+.input-label{
+    margin: 12px 0;
+    color: rgb(233, 233, 233);
+    padding: 5px 0 5px 12px;
+    border-radius: 12px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(126, 22, 100);
+    
+}
+
+
+.input{
+    padding: 0 0 0 12px;
+    font-size: 16px;
+    height: 40px;
+    width: 90%;
+    border: none;
+    background: none;
+    border-radius: 0;
+    color: white;
+}
+
+.dif{
+    position: relative;
+}
+
+.input:focus{
+    outline: 0 none;
+}
+
+.password{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.verContraseña{
+    transition: 0.3s all ease;
+    color: rgb(245, 245, 245);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 8px;
+    border: none;
+    position: absolute;
+    right: 10px;
+}
+
+.verContraseña:hover{
+    color: rgb(190, 20, 148);
+}
+
+.oculto{
+    display: none;
+}
+
+.chekbox{
+    margin: 12px 0;
+    padding: 0 0 0 8px;
+    display: flex;
+    align-items: center;
+}
+
+.parrafo{
+    margin-left: 8px;
+    text-align: center;
+}
+
+.citado{
+    font-style: italic;
+    color: rgb(214, 214, 214);
+}
+
+.enviar{
+    color: white;
+    margin-top: 20px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(126, 22, 100);
+}
+
+.enviar:hover{
+    background-color: rgb(94, 15, 74);
+}
+
+.registrar{
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+
+label{
+    position: absolute;
+    bottom: 10px;
+    left: -300px;
+    width: 300px;
+    text-align: center;
+    margin-top: 12px;
+    padding: 6px;
+    transition: 0.3s all ease;
+}
+
+.error{
+    background-color: rgb(245, 86, 86);
+    color: white;
+}
+
+.bien{
+    background-color: rgb(57, 209, 10);
+    color: white;
+}
